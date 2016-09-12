@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+     html, body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+     }
+     #map {
+       height: 100%;
+     }
+   </style>
+</head>
+<body>
+
+  <nav>
+    <h1>NASA</h1>
+  </nav>
+
+  <div class="container">
+    <div class="col col-6 space">
+      <h2>People in Space</h2>
+      <hr>
+      <div class="longitude"></div>
+      <div class="latitude"></div>
+      <div class="content"></div>
+    </div>
+    <div class="col col-6 map">
+      <h2 class ="location">Where on earth are they?</h2>
+      <hr>
+      <div class="content">
+      <div id="map"></div>
+
+
+      </div>
+    </div>
+
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXh8gMJ7kGOE1u7Un0tqlY7oRoTEGTYNU&callback=initMap"
+  async defer></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/location.js"></script>
+
+</body>
+</html>
