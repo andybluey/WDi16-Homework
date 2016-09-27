@@ -1,0 +1,250 @@
+.container {
+}
+
+.hours {
+  animation: rotate-clock 43200s infinite steps(60);
+  background: #000;
+  height: 150px;
+  width: 20px;
+  position: absolute;
+  top: 195px;
+  left: 239px;
+  transform-origin: 50% 100%;
+  opacity: .25;
+}
+
+.minutes {
+  animation: rotate-clock 3600s infinite steps(60);
+  background: #000;
+  height: 200px;
+  width: 10px;
+  position: absolute;
+  top: 145px;
+  left: 244px;
+  transform-origin: 50% 100%;
+  opacity: .2;
+}
+
+.seconds {
+  animation: rotate-clock 60s infinite steps(60);
+  background: #000;
+  height: 200px;
+  width: 2px;
+  position: absolute;
+  top: 145px;
+  left: 248px;
+  transform-origin: 50% 100%;
+  opacity: .4;
+  z-index: 8;
+}
+
+@keyframes rotate-clock {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+
+@keyframes rotate-bill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  animation: rotate-bill 1s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.outer {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  top: -18px;
+  border-radius: 50%;
+  opacity: .3;
+}
+
+.inner.twelve {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 55s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 227px;
+  top: 100px;
+  bottom: 100px;
+}
+
+.inner.one {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 344px;
+  top: 129px;
+  bottom: 100px;
+}
+
+.inner.two {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 428px;
+  top: 213px;
+  bottom: 100px;
+}
+
+.inner.three {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 10s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 458px;
+  top: 320px;
+  bottom: 100px;
+}
+
+.inner.four {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 15s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 431px;
+  top: 428px;
+  bottom: 100px;
+}
+
+.inner.five {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 20s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 357px;
+  top: 510px;
+  bottom: 100px;
+}
+
+.inner.six {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 25s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 227px;
+  top: 548px;
+  bottom: 100px;
+}
+
+.inner.seven {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 30s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 108px;
+  top: 510px;
+  bottom: 100px;
+}
+
+.inner.eight {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 35s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 34px;
+  top: 428px;
+  bottom: 100px;
+}
+
+.inner.nine {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 40s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 8px;
+  top: 320px;
+  bottom: 100px;
+}
+
+.inner.ten {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 45s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 38px;
+  top: 213px;
+  bottom: 100px;
+}
+
+.inner.eleven {
+  animation: rotate-bill 5s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 50s;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+  left: 121px;
+  top: 129px;
+  bottom: 100px;
+}
